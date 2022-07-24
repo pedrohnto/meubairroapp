@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1975D9D288D78A200D0A0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1975D9C288D78A200D0A0FC /* AppDelegate.swift */; };
+		F1975D9F288D78A200D0A0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1975D9E288D78A200D0A0FC /* SceneDelegate.swift */; };
+		F1975DA4288D78A200D0A0FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1975DA2288D78A200D0A0FC /* Main.storyboard */; };
+		F1975DA7288D78A200D0A0FC /* MeuBairroApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1975DA5288D78A200D0A0FC /* MeuBairroApp.xcdatamodeld */; };
+		F1975DA9288D78A300D0A0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1975DA8288D78A300D0A0FC /* Assets.xcassets */; };
+		F1975DAC288D78A300D0A0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1975DAA288D78A300D0A0FC /* LaunchScreen.storyboard */; };
+		F1975DB4288D7C0C00D0A0FC /* ReportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1975DB3288D7C0C00D0A0FC /* ReportsTableViewController.swift */; };
+		F1975DB6288D8D5D00D0A0FC /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1975DB5288D8D5D00D0A0FC /* ReportViewController.swift */; };
+		F1975DB8288D960100D0A0FC /* ReportFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1975DB7288D960100D0A0FC /* ReportFormViewController.swift */; };
+		F1975DBA288DB51A00D0A0FC /* UIViewController+Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1975DB9288DB51A00D0A0FC /* UIViewController+Context.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1975D99288D78A200D0A0FC /* MeuBairroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeuBairroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1975D9C288D78A200D0A0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1975D9E288D78A200D0A0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1975DA3288D78A200D0A0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1975DA6288D78A200D0A0FC /* MeuBairroApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeuBairroApp.xcdatamodel; sourceTree = "<group>"; };
+		F1975DA8288D78A300D0A0FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1975DAB288D78A300D0A0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1975DAD288D78A300D0A0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1975DB3288D7C0C00D0A0FC /* ReportsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsTableViewController.swift; sourceTree = "<group>"; };
+		F1975DB5288D8D5D00D0A0FC /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		F1975DB7288D960100D0A0FC /* ReportFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportFormViewController.swift; sourceTree = "<group>"; };
+		F1975DB9288DB51A00D0A0FC /* UIViewController+Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Context.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1975D96288D78A200D0A0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1975D90288D78A200D0A0FC = {
+			isa = PBXGroup;
+			children = (
+				F1975D9B288D78A200D0A0FC /* MeuBairroApp */,
+				F1975D9A288D78A200D0A0FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1975D9A288D78A200D0A0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1975D99288D78A200D0A0FC /* MeuBairroApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1975D9B288D78A200D0A0FC /* MeuBairroApp */ = {
+			isa = PBXGroup;
+			children = (
+				F1975D9C288D78A200D0A0FC /* AppDelegate.swift */,
+				F1975D9E288D78A200D0A0FC /* SceneDelegate.swift */,
+				F1975DB9288DB51A00D0A0FC /* UIViewController+Context.swift */,
+				F1975DB5288D8D5D00D0A0FC /* ReportViewController.swift */,
+				F1975DB7288D960100D0A0FC /* ReportFormViewController.swift */,
+				F1975DB3288D7C0C00D0A0FC /* ReportsTableViewController.swift */,
+				F1975DA2288D78A200D0A0FC /* Main.storyboard */,
+				F1975DAA288D78A300D0A0FC /* LaunchScreen.storyboard */,
+				F1975DA8288D78A300D0A0FC /* Assets.xcassets */,
+				F1975DAD288D78A300D0A0FC /* Info.plist */,
+				F1975DA5288D78A200D0A0FC /* MeuBairroApp.xcdatamodeld */,
+			);
+			path = MeuBairroApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1975D98288D78A200D0A0FC /* MeuBairroApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1975DB0288D78A300D0A0FC /* Build configuration list for PBXNativeTarget "MeuBairroApp" */;
+			buildPhases = (
+				F1975D95288D78A200D0A0FC /* Sources */,
+				F1975D96288D78A200D0A0FC /* Frameworks */,
+				F1975D97288D78A200D0A0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeuBairroApp;
+			productName = MeuBairroApp;
+			productReference = F1975D99288D78A200D0A0FC /* MeuBairroApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1975D91288D78A200D0A0FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F1975D98288D78A200D0A0FC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F1975D94288D78A200D0A0FC /* Build configuration list for PBXProject "MeuBairroApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1975D90288D78A200D0A0FC;
+			productRefGroup = F1975D9A288D78A200D0A0FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1975D98288D78A200D0A0FC /* MeuBairroApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1975D97288D78A200D0A0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1975DAC288D78A300D0A0FC /* LaunchScreen.storyboard in Resources */,
+				F1975DA9288D78A300D0A0FC /* Assets.xcassets in Resources */,
+				F1975DA4288D78A200D0A0FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1975D95288D78A200D0A0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1975DA7288D78A200D0A0FC /* MeuBairroApp.xcdatamodeld in Sources */,
+				F1975DB6288D8D5D00D0A0FC /* ReportViewController.swift in Sources */,
+				F1975DB4288D7C0C00D0A0FC /* ReportsTableViewController.swift in Sources */,
+				F1975DBA288DB51A00D0A0FC /* UIViewController+Context.swift in Sources */,
+				F1975DB8288D960100D0A0FC /* ReportFormViewController.swift in Sources */,
+				F1975D9D288D78A200D0A0FC /* AppDelegate.swift in Sources */,
+				F1975D9F288D78A200D0A0FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1975DA2288D78A200D0A0FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1975DA3288D78A200D0A0FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1975DAA288D78A300D0A0FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1975DAB288D78A300D0A0FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1975DAE288D78A300D0A0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1975DAF288D78A300D0A0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1975DB1288D78A300D0A0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeuBairroApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.phnsoft.MeuBairroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1975DB2288D78A300D0A0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeuBairroApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.phnsoft.MeuBairroApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1975D94288D78A200D0A0FC /* Build configuration list for PBXProject "MeuBairroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1975DAE288D78A300D0A0FC /* Debug */,
+				F1975DAF288D78A300D0A0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1975DB0288D78A300D0A0FC /* Build configuration list for PBXNativeTarget "MeuBairroApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1975DB1288D78A300D0A0FC /* Debug */,
+				F1975DB2288D78A300D0A0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1975DA5288D78A200D0A0FC /* MeuBairroApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1975DA6288D78A200D0A0FC /* MeuBairroApp.xcdatamodel */,
+			);
+			currentVersion = F1975DA6288D78A200D0A0FC /* MeuBairroApp.xcdatamodel */;
+			path = MeuBairroApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1975D91288D78A200D0A0FC /* Project object */;
+}
